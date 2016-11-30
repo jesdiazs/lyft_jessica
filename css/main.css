@@ -1,0 +1,195 @@
+/* ESTILOS PARA LA PAGINA PRINCIPAL*/
+.home{
+	background-image: url(../img/portada_def.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	min-height: 100vh;
+}
+
+.btn-primary{
+	font-family: 'Lora', serif;
+	color: white;
+	text-align: center;
+	font-size: 18px;
+	font-weight: 100;
+	background-color: #FF09B5;
+	border: 2px solid #FF09B5;
+	margin-top: 50px;
+	width: 200px;
+}	
+	
+/*.sig{
+	background-color: #FF09B5;
+	border: 2px solid #FF09B5;	
+	margin-top: 480px;
+	width: 200px;
+	text-align: center;
+	font-size: 18px;
+	font-weight: 100;		
+}
+/* ESTILOS PARA LOGIN*/
+.pass{
+	margin-top: 10px;
+}
+
+/* CSS PARA SIGNUP_DATOS*/
+.input-box span {
+    display: block;
+    background-color: rgba(51,51,51,0.8);
+    padding: 5px;
+    left: 105%;
+    top: 8px;
+    color: black;
+}
+.title{
+	font-family: 'Lora', serif;
+	text-align: center;
+}
+.emailsig{
+	margin-top: 10px;
+}
+.next{
+	background-color: #FF09B5;
+	border: 2px solid #FF09B5;
+	font-family: 'Lora', serif;
+	font-size: 20px;
+	text-align: center;
+	margin-top: 10px;
+	width: 100%;
+}
+.checkbox{
+	font-family: 'Lora', serif;
+	font-size: 16px;
+	margin-top: 10px;
+}
+/*CSS PARA SIGNUP_PAISES*/
+.title2{
+	font-family: 'Lora', serif;
+	text-align: center;
+}
+.subtitle{
+	font-family: 'Lora', serif;
+	font-size: 16px;
+	margin-top: 10px;
+}
+.next1{
+	background-color: #FF09B5;
+	border: 2px solid #FF09B5;
+	font-family: 'Lora', serif;
+	font-size: 20px;
+	text-align: center;
+	width: 100%;
+	margin-bottom: 40px;
+}
+.next2{
+	background-color: #FF09B5;
+	border: 2px solid #FF09B5;
+	font-family: 'Lora', serif;
+	font-size: 20px;
+	text-align: center;
+	margin-top: 80px;
+	width: 100%;
+}
+.codeLab{
+	font-family: 'Lora', serif;
+	font-size: 30px;
+	color: #32A898;
+}
+.code {
+	text-align:center;
+}
+
+/*prueba paises*/
+#myBtn{
+	background-color: white;
+}
+.lisPaises a {
+	text-decoration: none;
+	color: black;
+}
+ul, li {
+	list-style: none;
+	margin-top:10px;
+	margin-left: 10px;
+}
+/* The Modal (background) */
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%;
+    overflow: auto; 
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+
+/* Modal Content/Box */
+.modal-contenido {
+    background-color: #fefefe;
+    margin: 15% auto; 
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; 
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+//CSS PARA MAP
+.sidenav {
+   height: 100%;
+   width: 0;
+   position: fixed;
+   z-index: 1;
+   top: 0;
+   left: 0;
+   background-color: #111;
+   overflow-x: hidden;
+   transition: 0.5s;
+   padding-top: 60px;
+}
+
+.sidenav a {
+   padding: 8px 8px 8px 32px;
+   text-decoration: none;
+   font-size: 12px;
+   color: #818181 ;
+   display: block;
+   transition: 0.3s
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+   color: ##282828 ;
+}
+
+.sidenav .closebtn {
+   position: absolute;
+   top: 0;
+   right: 25px;
+   font-size: 14px;
+   margin-left: 30px;
+}
+
+#map{
+    width: 100%;
+    height: 680px;
+ left: 0px;
+ top: 0px;
+ position: fixed;
+ z-index: 0;
+}

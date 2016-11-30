@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/main.css">
+	<title>Lyft</title>
+</head>
+<body>
+	<div class="container" >
+		<div class="row">
+			<div class="col-xs-12 title2">
+				<h1>Sign Up</h1>
+				<p>Join now for free ride credit</p>
+				<hr>
+			</div>
+		</div>
+	</div>
+	<div class="container" >
+		<div class="row">
+			<div class="col-xs-4">
+				<button class="form-control" id="myBtn">Countries</button>
+				
+				<!--Modal -->
+				<div id="myModal" class="modal">
+  				<div class="modal-contenido">
+	   				 <span class="close">x</span>
+	   				 	<ul class="lisPaises">
+	   				 		<li>
+		   				 	<a href="signup_paises.html">
+		   				 	<img src="img/cl.png" alt="">
+		    				<span>CHILE</span></a>
+		   				 </li>
+		   				 <li>
+		   				 	<a href="signup_paises.html">
+		   				 	<img src="img/ar.png" alt="">
+		    				<span>ARGENTINA</span></a>
+		   				 </li>
+		   				 <li>
+		   				 	<a href="signup_paises.html">
+		   				 	<img src="img/mx.png" alt="">
+		    				<span>MEXICO</span></a>
+		   				 </li>
+	   				 	</ul>
+   				 </div>
+				</div>
+			</div>
+			<div class="col-xs-2">
+				<input type="text" class="form-control codigo" placeholder="Código">
+			</div>
+			<div class="col-xs-6">
+				<input type="text" class="form-control number" placeholder="235789">
+				<div id="pais">
+					
+				</div>	
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-12 subtitle">
+				<p>We´ll send a text to verify your phone</p>
+			</div>
+			<div class="col-xs-12 code" type="submit">
+				<a href="#" class="btn btn-primary next1" id="codigo">Get your code</a>
+			</div>
+   		</div>
+   		<div class="row">
+   			<div class="col-xs-12" type="submit">
+   				<a href="signup_datos.html" class="btn btn-primary next2" id="siguiente" >Next</a>
+   			</div>
+   		</div>
+   	</div>
+	<!--AQUI VA MIS LINK DE JQUERY Y JS-->
+	<script type='text/javascript' src='js/jquery-3.1.1.min.js'></script>
+	<script type='text/javascript' src='js/script.js'></script>
+</body>
+</html>

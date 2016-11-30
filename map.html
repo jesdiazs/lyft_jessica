@@ -1,0 +1,80 @@
+<
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lyft</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+     <link rel="stylesheet" href="css/miestilo.css">
+     <!--<link rel="stylesheet" href="build/css/demo.css">-->
+     <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+</head>
+<body>
+    <header>
+        <div id="mySidenav" class="sidenav">
+             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+     <!-- aqui comienza el side bar del usuario  -->    
+        <div class="profile-userpic">
+            <a href="profile2.html">Ver Perfil</a>
+        </div>
+        <div class="profile-usermenu">
+            <ul class="nav">
+                <li class="active">
+                     <a href="#"><i class="glyphicon glyphicon-map-marker"></i>Home </a>    
+                </li>
+                <li>
+                    <a href="#" target="_blank"><i class="glyphicon glyphicon-gift"></i>Viajes Gratis</a>    
+                </li>
+                <li>
+                    <a href="#" target="_blank"><i class="glyphicon glyphicon-dashboard"></i>Historial de Viajes </a>    
+                </li>
+                <li>
+                    <a href="#" target="_blank"><i class="glyphicon glyphicon-credit-card"></i>Forma de Pago </a>            
+                </li>
+                <li>
+                    <a href="#"><i class="glyphicon glyphicon-cog"></i>Settings </a>    
+                </li>
+                <li>
+                    <a href="#"><i class="glyphicon glyphicon-question-sign"></i>Ayuda </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+<div id="main">
+    <div class="row">
+         <span onclick="openNav()"><a href="#demo" data-toggle="collapse" class="btn btn-default btn-circle btn-md">    
+         <i class="glyphicon glyphicon-user"></i></a></span>
+
+        <div class="col-xs-3 col-xs-offset-1">            
+                <img src="img/logo_tiny_pink.png" class="img-responsive logo" alt="">
+        </div>    
+        <div class="col-xs-3 col-xs-offset-2">
+            <a href="#" class="btn btn-default btn-circle btn-md" id="btn2"><i class="glyphicon glyphicon-gift"></i></a>
+        </div>
+        
+        
+    </div>
+</div>
+    
+</header>
+<section>
+    <div class="container"><!--AQUI COMIENZA EL MAPA!!!! FALTA AGREGAR BOTON Y WIDGET DEL USUARIO -->
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12">
+            <div id="map"></div>
+            <input type="text" class="search" placeholder ="Mi Ubicacion">        
+            <button type="button" class="btn btn-primary btn-md" id="viaje">Set pick Up</button>
+        </div>
+      </div>
+    </div>
+</div>
+</section>
+
+    <script type='text/javascript' src='jq/jquery-3.1.1.js'></script>
+   <script type='text/javascript' src='js/main.js'></script> 
+    <script src="js/bootstrap.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/
+    js?key=AIzaSyD-Dn1AroBDY1PNgMylQxhfPWls3jERFI8&callback=myMap"></script> 
+</body>
+</html>
